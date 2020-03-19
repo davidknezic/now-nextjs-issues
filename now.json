@@ -6,7 +6,6 @@
   ],
   "routes": [
     { "src": "/backoffice/(.*)", "dest": "/backoffice/$1" },
-    { "src": "/backoffice", "status": 308, "headers": { "Location": "/backoffice/" } },
     { "src": "/(.*)", "dest": "/website/$1" }
   ]
 }
